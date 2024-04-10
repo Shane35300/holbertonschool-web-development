@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 a {
 	text-decoration: none;
@@ -13,17 +13,114 @@ body {
 	background-image: url('/images/header-background.png');
 	background-repeat: no-repeat;
 	background-size: 100% auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 header {
+	margin-top: 30px;
+	width: 1103px;
+	height: 29px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 700;
+}
+header img {
+	width: 200px;
+	height: auto;
+}
+header a {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+header > div {
+	display: flex;
+	column-gap: 55px;
+}
+.header-section {
+	margin-top: 185px;
+	color: #FFFFFF;
+}
+.big-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.big-title h1 {
+	position: absolute;
+	top: 220px;
+	left: 377px;
+	font-weight: 700;
+	font-size: 120px;
+	line-height: 150px;
 
+}
+.big-title p {
+	position: absolute;
+	top: 361px;
+	left: 593px;
+	width: 253px;
+	display: flex;
+	justify-content: center;
+	word-spacing: 54px;
+	font-weight: 700;
+	font-size: 16px;
+}
+.big-title button {
+	position: absolute;
+	top: 419px;
+	width: 162px;
+	height: 44px;
+	border-radius: 22px;
+	background-color: #C271FF;
+	border: none;
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 14px;
+	box-shadow: 0px 2px 20px 0px #00000080;
+}
+.learn {
+	position: absolute;
+	top: 631px;
+	left: 0;
 	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.learn h2 {
+	width: 263px;
+	display: flex;
+	font-weight: 300;
+	font-size: 32px;
+
+}
+.learn h2 p.styled {
+	font-weight: 700;
+	color: #C271FF;
+}
+.learn > div {
+	margin-top: 90px;
+	width: 1009px;
+	height: 237px;
+	border: red 1px solid;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-header a {
-	color: white;
+.learn img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
 }
-header > div {
-	border: green solid 2px;
+.indiv-profile {
+	width: 150px;
+	height: 237px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
 }
