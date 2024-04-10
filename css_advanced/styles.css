@@ -67,17 +67,19 @@ header > div {
 	font-weight: 700;
 	font-size: 16px;
 }
-.big-title button {
-	position: absolute;
-	top: 419px;
+button {
 	width: 162px;
 	height: 44px;
-	border-radius: 22px;
 	background-color: #C271FF;
 	border: none;
 	color: #FFFFFF;
 	font-weight: 600;
 	font-size: 14px;
+	border-radius: 22px;
+}
+.big-title button {
+	position: absolute;
+	top: 419px;
 	box-shadow: 0px 2px 20px 0px #00000080;
 }
 .learn {
@@ -175,14 +177,14 @@ header > div {
 	align-items: center;
 	justify-content: space-between;
 }
-.videos h1 {
+.videos h1, .membership h1 {
 	display: flex;
 	font-weight: 300;
 	font-size: 32px;
 	line-height: 40px;
 	margin-bottom: 50px;
 }
-.videos h1 .styled {
+.videos h1 .styled, .membership h1 .styled {
 	font-weight: 700;
 	color: #C271FF;
 }
@@ -288,4 +290,53 @@ h3 {
 	display: flex;
 	column-gap: 15px;
 	margin-right: 70px;
+}
+
+.membership {
+	position: absolute;
+	top: 2109px;
+	left: 0;
+	width: 1440px;
+	height: 502px;
+	background-color: #071629;
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.membership h1 {
+	margin-top: 60px;
+}
+.membership img {
+	width: 44px;
+	height: 36px;
+}
+.membership-block h2 {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 26px;
+}
+.membership-block p {
+	padding: 0 20px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+}
+.all-membership-blocks {
+	display: flex;
+	justify-content: center;
+	column-gap: 25px;
+}
+
+.membership-block {
+	width: 257px;
+	height: 153px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+}
+.membership button {
+	margin-top: 100px;
 }
