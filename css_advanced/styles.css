@@ -170,7 +170,6 @@ header > div {
 	left: 106px;
 	width: 1228px;
 	height: 450px;
-	border: skyblue 1px solid;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -194,13 +193,99 @@ header > div {
 	column-gap: 31px;
 }
 .video-block {
+	position: relative;
 	width: 255px;
 	height: 335px;
-	border: black solid 1px;
 }
-.all-video-blocks img {
+.video-block > * {
+	padding-left: 10px;
+	margin: 9px 0;
+}
+.video-block > img {
+	padding: 0 0;
+	margin: 0 0;
 	width: 255px; /* Largeur de la zone d'affichage */
     height: 154px; /* Hauteur de la zone d'affichage */
-    object-fit: none; /* Redimensionne l'image pour remplir complètement la zone d'affichage */
-    object-position: 60% 14%; /* Centre l'image dans la zone d'affichage */
+    object-fit: none;
+}
+.video-block::after {
+	content: "";
+	position: absolute;
+	top: 45px;
+	left: 96px;
+	width: 64px;
+	height: 64px;
+	border-radius: 32px;
+	background-color: #FFFFFF;
+	opacity: 86%;
+	z-index: 1;
+}
+.video-block::before {
+	content: "";
+	position: absolute;
+	top: 69px;
+	left: 122px;
+	width: 0px;
+	height: 0px;
+	border-top: 9px solid transparent;
+	border-left: 15px solid #C271FF;
+	border-bottom: 9px solid transparent;
+	z-index: 2;
+
+}
+#tuto1 {
+    object-position: 62% 27%; /* Centre l'image dans la zone d'affichage */
+}
+
+#tuto2 {
+    object-position: 100% 52%; /* Centre l'image dans la zone d'affichage */
+}
+#tuto3 {
+    object-position: 100% 52%; /* Centre l'image dans la zone d'affichage */
+}
+#tuto4 {
+    object-position: 40% 52%; /* Centre l'image dans la zone d'affichage */
+}
+.video-block > div img {
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+}
+.video-block > p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	width: 242;
+	color: #07162980;
+
+}
+.author-infos {
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+}
+.author-infos, .rating {
+	color: #C271FF;
+}
+.star-empty {
+	color: #D8D8D8;
+}
+.star-full, .star-empty {
+	font-size: 20px;
+}
+.rating {
+	display: flex;
+	font-weight: 600;
+}
+.rating p {
+	font-size: 14px;
+}
+h3 {
+	font-weight: 600;
+	font-size: 14px;
+}
+.stars {
+	display: flex;
+	column-gap: 15px;
+	margin-right: 70px;
 }
