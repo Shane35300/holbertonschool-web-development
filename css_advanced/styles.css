@@ -8,11 +8,10 @@ a {
 	text-decoration: none;
 }
 body {
-	border: red solid 4px;
 	width: 1440px;
 	background-image: url('/images/header-background.png');
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: 1447px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -125,7 +124,7 @@ header > div {
 }
 .quote {
 	position: absolute;
-	top: 1093px;
+	top: 1089px;
 	left: 0px;
 	width: 100%;
 	height: 392px;
@@ -192,4 +191,16 @@ header > div {
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	column-gap: 31px;
+}
+.video-block {
+	width: 255px;
+	height: 335px;
+	border: black solid 1px;
+}
+.all-video-blocks img {
+	width: 255px; /* Largeur de la zone d'affichage */
+    height: 154px; /* Hauteur de la zone d'affichage */
+    object-fit: none; /* Redimensionne l'image pour remplir complètement la zone d'affichage */
+    object-position: 60% 14%; /* Centre l'image dans la zone d'affichage */
 }
