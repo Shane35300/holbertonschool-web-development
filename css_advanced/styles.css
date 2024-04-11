@@ -86,7 +86,7 @@ button {
 	position: absolute;
 	top: 631px;
 	left: 0;
-	width: 100%;
+	width: 1440px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -339,4 +339,91 @@ h3 {
 }
 .membership button {
 	margin-top: 100px;
+}
+.faq {
+	position: absolute;
+	top: 2678px;
+	left: 249px;
+	width: 920px;
+	height: 707px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #071629;
+
+}
+.faq h1 {
+	font-weight: 300;
+	font-size: 60px;
+	line-height: 75px;
+}
+.faq h2 {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+}
+.faq p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #07162980;
+
+}
+.faq .row-block {
+	width: 920px;
+	height: 242px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+.faq .item-block {
+	width: 350px;
+	height: 242px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+footer {
+	position: absolute;
+	top: 3469px;
+	width: 1440px;
+	height: 249px;
+	background-color: #071629;
+}
+footer p {
+	color: #FFFFFF;
+	opacity: 35%;
+	font-weight: 400;
+	font-size: 12px;
+	margin-top: 70px;
+}
+footer > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+footer .all-logos {
+	margin-top: 95px;
+	display: flex;
+	width: 1110px;
+	height: 30px;
+	align-items: center;
+	justify-content: space-between;
+}
+.social-networks {
+	width: 130px;
+	height: 30px;
+	margin-right: 75px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+footer .social-networks img {
+	width: 30px;
+	height: 30px;
+}
+footer .logo img {
+	width: 169px;
+	height: 30px;
 }
