@@ -11,7 +11,7 @@ body {
 	width: 1440px;
 	background-image: url('./images/header-background.png');
 	background-repeat: no-repeat;
-	background-size: 1447px;
+	background-size: 1440px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -126,7 +126,7 @@ button {
 }
 .quote {
 	position: absolute;
-	top: 1094px;
+	top: 1089px;
 	left: 0px;
 	width: 1440px;
 	height: 392px;
