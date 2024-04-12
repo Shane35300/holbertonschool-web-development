@@ -142,7 +142,6 @@ button {
     object-fit: none; /* Redimensionne l'image pour remplir complètement la zone d'affichage */
     object-position: 50% 14%; /* Centre l'image dans la zone d'affichage */
     border-radius: 50%; /* Rend l'image arrondie */
-
 }
 .quote .quote-block-1 {
 	width: 943px;
