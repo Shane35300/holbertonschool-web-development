@@ -11,10 +11,11 @@ body {
 	width: 1440px;
 	background-image: url('./images/header-background.png');
 	background-repeat: no-repeat;
-	background-size: 1447px;
+	background-size: 1440px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	overflow-x: hidden;
 }
 header {
 	margin-top: 30px;
