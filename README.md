@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Project Summary: Learning CSS Basics
 
 ## Resources
@@ -29,3 +30,6 @@ By the end of this project, you should be able to explain the following concepts
 ---
 
 This project aims to provide a solid understanding of CSS fundamentals, enabling you to style web pages effectively and efficiently.
+=======
+README
+>>>>>>> c17ef69ab098df54bbf666ad51bb189415785a1b
